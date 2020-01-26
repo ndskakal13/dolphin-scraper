@@ -1,7 +1,6 @@
 dolphinCrawl - A tool for getting article data from thedolphinlmc.com, the website of Le Moyne's student newspaper The Dolphin
 developed by Nicholas Skakal '20
 
-==================================================================================================================
 
 PIP, SCRAPY, AND MYSQLCONNECTOR
 ===============================
@@ -28,8 +27,8 @@ Once this is done, open a command terminal and navigate to the directory you unz
 scrapy crawl <spider-name>
 where <spider-name> is the name given by "name" at the top of the spider.py file in its respective spiders folder.
 The spiders are intended to be run in this order:
-	- getPageCounts
-	- getURLs
-	- getArticleInfo
-	- getPhotoInfo
+- getPageCounts
+- getURLs
+- getArticleInfo
+- getPhotoInfo
 You will have to navigate back up once in your directory once done to get to the next spider.

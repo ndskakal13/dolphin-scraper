@@ -31,4 +31,5 @@ The spiders are intended to be run in this order:
 - getURLs
 - getArticleInfo
 - getPhotoInfo
+
 You will have to navigate back up once in your directory once done to get to the next spider.
